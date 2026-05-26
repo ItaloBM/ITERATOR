@@ -1,4 +1,6 @@
 package padroescomportamentais.iterator;
 
-public class Iterador {
+public interface Iterador {
+    boolean temProximo();
+    Jogador proximo();
 }

@@ -1,4 +1,5 @@
 package padroescomportamentais.iterator;
 
-public class Agregado {
+public interface Agregado {
+    Iterador criarIterador();
 }
